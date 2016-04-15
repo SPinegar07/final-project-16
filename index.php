@@ -11,8 +11,22 @@
          <div class="twelve columns">
 <!-- BEGIN MAIN IMAGE SECTION -->
             <div class="index-main">
+                <table>
+                    <tr>
+                        <td>Menu</td>
+                        <td>Locations</td>
+                    </tr>
+                </table>
             </div>
 <!-- END MAIN IMAGE SECTION -->
+            <div class="twelve columns">
+                <table>
+                    <tr>
+                        <td>GET TO KNOW US</td>
+                        <td>SPECIALS</td>
+                        <td>ORDER NOW</td>
+                    </tr>
+                </table>
         </div>
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
