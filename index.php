@@ -8,6 +8,12 @@
      <div class="container">
             <?php get_header(); ?>
     <section class="row">
+         <div class="twelve columns">
+<!-- BEGIN MAIN IMAGE SECTION -->
+            <div class="index-main">
+            </div>
+<!-- END MAIN IMAGE SECTION -->
+        </div>
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
             <?php 
