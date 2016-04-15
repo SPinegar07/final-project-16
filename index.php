@@ -1,49 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-<!-- Sylesheet -->
-        <style type="text/css">
-  <?php
-    include("style.css");
-  ?>
-</style>
-<style type="text/css">
-  <?php
-    include("css/skeleton.css");
-  ?>
-</style>
-    </head>
-    <body> 
-        <?php get_header(); ?>
-        <div class="container">
-    <table>
-        <tr>
-            <td width="55%">
-<!-- BEGIN LOOP -->
-            <?php if ( have_posts() ) : ?>
-            <h2 class="center">Fancy Blog About Web Stuffs</h2>
-            <?php
-            // The Loop
-            while ( have_posts() ) : the_post();?>
-            <!-- data context -->
-                <h2>
-                    <a href="<?php the_permalink() ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </h2>
-                <?php the_excerpt(); ?>
-            <?php endwhile; ?> <!-- End Loop -->
-        <?php endif; ?>
-        <p><a href="http://www.kittensunicornsandtacos.com/UFL/category/group-1/">View More</a>
-    </div>
-<!-- END LOOP -->
-    </td>
-<!-- SIDEBAR -->
-    <td width="350" valign="top">
-           <?php get_sidebar(); ?>
-   </td>
-        </div> <!-- ends container -->
-        <?php get_footer(); ?>
-    </body>
+<head>
+<title>Chip's Chiptastic Cupcakery</title>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('style.css'); ?>" />
+</head>
+<body>
+    <div class="container">
+
+  <div class="row">
+    <div class="six columns">Content for 1/2 width column</div>
+    <div class="six columns">Content for 1/2 width column</div>
+  </div>
+
+  <div class="row">
+    <div class="four columns">Content for 1/3 width column</div>
+    <div class="five columns">Content for 5/12 width column</div>
+    <div class="three columns">Content for 1/4 width column</div>
+  </div>
+
+</div>
+</body>
 </html>
