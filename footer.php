@@ -15,13 +15,10 @@
 		<table>
 			<tr>
 				<td width="33%">
-					<a href="http://www.kittensunicornsandtacos.com/UFL/">Home</a>
+					<td><img src=""><td><p>testimonial information</p></td>
 				</td>
-				<td width="33%">
-					<a href="http://www.kittensunicornsandtacos.com/UFL/">Copyright</a>
-				</td>
-				<td width="33%">
-					<a href="mailto:spinegar07@ufl.edu">Contact Us</a>
+				<td width="67%">
+				<p>menu</p>
 				</td>
 
 </footer>
