@@ -18,19 +18,22 @@
                 <tr>
                     <td>
                     <!-- ADD LINK TO HOME_URL -->
-                    <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/logo.png" width="200" alt="logo"></a>
+                    <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="images/logo.png" alt="logo"></a>
                 </td>
                 <td>
                         <table width="200">
                             <tr>
                                 <td>
-                                    <a href="https://www.instagram.com/"><img src="http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/instagram.png" width="40" alt="logo"></a>
+                                    <a href="https://www.facebook.com/"><img src="images/Icons/Active/Facebook.png" width="40" alt="logo"></a>
                                 </td>
                                 <td>
-                                    <a href="https://www.facebook.com/"><img src="http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/facebook.png" width="40" alt="logo"></a>
+                                    <a href="https://twitter.com/"><img src="images/Icons/Active/Twitter.png" width="40" alt="logo"></a>
                                 </td>
                                 <td>
-                                    <a href="https://twitter.com/"><img src="http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/instagram.png" width="40" alt="logo"></a>
+                                    <a href="https://www.pinterest.com/"><img src="images/Icons/Active/Pinterest.png" width="40" alt="logo"></a>
+                                </td>
+                                <td>
+                                    <a href="https://www.youtube.com/"><img src="images/Icons/Active/Youtube.png" width="40" alt="logo"></a>
                                 </td>
                             </tr>
                         </table>
