@@ -13,8 +13,8 @@
             <div class="index-main">
                 <table>
                     <tr>
-                        <td>Menu</td>
-                        <td>Locations</td>
+                        <td class="button1">Menu</td>
+                        <td class="button2">Locations</td>
                     </tr>
                 </table>
             </div>
@@ -30,13 +30,12 @@
         </div>
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
-            <?php 
-            if ( have_posts() ) {
-                while ( have_posts() ) {
-                    the_post(); 
-                } // end while
-            } // end if
-            ?>
+            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<h1><?php the_title(); ?></h1>
+<h4>Posted on <?php the_time('F jS, Y') ?></h4>
+<p><?php the_content(__('(more...)')); ?></p>
+<hr> <?php endwhile; else: ?>
+<p><?php _e('Sorry, We could not find what you were looking for.'); ?></p><?php endif; ?>
 <!-- END LOOP -->
         </div>
     </section>
