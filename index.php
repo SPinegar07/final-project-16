@@ -20,14 +20,15 @@
             </div>
 <!-- END MAIN IMAGE SECTION -->
             <div class="twelve columns">
-                <table>
-                    <tr>
-                        <td>GET TO KNOW US</td>
-                        <td>SPECIALS</td>
-                        <td>ORDER NOW</td>
-                    </tr>
-                </table>
-        </div>
+                <div class="four columns">
+                    <?php dynamic_sidebar('main-page-left-widget'); ?>
+                </div>
+                <div class="four columns">
+                    <?php dynamic_sidebar('main-page-center-widget'); ?>
+                </div>
+                <div class="four columns">
+                    <?php dynamic_sidebar('main-page-right-widget'); ?>
+                </div>
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
