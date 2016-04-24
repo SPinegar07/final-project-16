@@ -14,13 +14,10 @@
 <body>
     <div class="container">
             <div class="twelve columns">
-                <div class="ten columns">
-                    <!-- ADD LINK TO HOME_URL -->
-                    <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/chip-logo.png" alt="logo" width="300px"></a>
-                </div>
-                <div class="twelve columns">
-                    <div class="two columns">
-                        <table width="200">
+                <div class="two columns">
+                    <div class="right">
+
+                        <table width="160">
                             <tr>
                                 <td>
                                     <a href="https://www.facebook.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Facebook.png" alt="logo"></a>
@@ -38,7 +35,14 @@
                         </table>
                     </div>
                 </div>
-                        </header>
+                <div class="twelve columns">
+                <div class="ten columns">
+                    <!-- ADD LINK TO HOME_URL -->
+                    <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/chip-logo.png" alt="logo" width="300px"></a>
+                </div>
+                    
+                </div>
+            
 </div>
 </div>
 </body>
