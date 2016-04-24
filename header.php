@@ -20,16 +20,16 @@
                         <table width="160">
                             <tr>
                                 <td>
-                                    <a href="https://www.facebook.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Facebook.png" alt="logo"></a>
+                                    <a href="https://www.facebook.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Facebook-1.png" onmouseover="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Facebook.png'" onmouseout="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Facebook-1.png'" /></a>
                                 </td>
                                 <td>
-                                    <a href="https://twitter.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Twitter.png" alt="logo"></a>
+                                    <a href="https://twitter.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Twitter-1.png" onmouseover="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Twitter.png'" onmouseout="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Twitter-1.png'" /></a>
                                 </td>
                                 <td>
-                                    <a href="https://www.pinterest.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Pinterest.png" alt="logo"></a>
+                                    <a href="https://www.pinterest.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Pinterest-1.png" onmouseover="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Pinterest.png'" onmouseout="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/Pinterest-1.png'" /></a>
                                 </td>
                                 <td>
-                                    <a href="https://www.youtube.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/YouTube.png" alt="logo"></a>
+                                    <a href="https://www.youtube.com/"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/YouTube-1.png" onmouseover="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/YouTube.png'" onmouseout="this.src='http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/YouTube-1.png'" /></a>
                                 </td>
                             </tr>
                         </table>
