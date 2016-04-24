@@ -6,7 +6,7 @@
 </head>
 <body>
      <div class="container">
-            <?php get_header(); ?>
+   <?php get_header(); ?>
     <section class="row">
          <div class="twelve columns">
 <!-- BEGIN MAIN IMAGE SECTION -->
@@ -29,6 +29,7 @@
                 <div class="four columns">
                     <?php dynamic_sidebar('main-page-right-widget'); ?>
                 </div>
+            </div>
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>

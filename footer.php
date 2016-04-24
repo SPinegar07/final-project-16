@@ -12,15 +12,14 @@
 </head>
 <body>
 	<footer>
-		<table>
-			<tr>
-				<td width="33%">
-					<td><img src=""><td><p>testimonial information</p></td>
-				</td>
-				<td width="67%">
-				<p>menu</p>
-				</td>
-
+		<div class="twelve columns">
+                <div class="four columns">
+                    <?php dynamic_sidebar('footer-widget-one'); ?>
+                </div>
+                <div class="eight columns">
+                    <?php dynamic_sidebar('menu-footer'); ?>
+                </div>
+            </div>
 </footer>
 </div> 
 <?php wp_footer(); ?>
