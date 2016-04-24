@@ -152,20 +152,33 @@ width: 100%;
 .left  {
   float:left;
 }
-
-.fb img:last-child{display:none}
-.fb:hover img:first-child{display:none}
-.fb:hover img:last-child{display:inline-block}
-
-.pin img:last-child{display:none}
-.pin:hover img:first-child{display:none}
-.pin:hover img:last-child{display:inline-block}
-
-.tw img:last-child{display:none}
-.tw:hover img:first-child{display:none}
-.tw:hover img:last-child{display:inline-block}
-
-.yt img:last-child{display:none}
-.yt:hover img:first-child{display:none}
-.yt:hover img:last-child{display:inline-block}
-
+/* -----------------Menu Styling------------------- */
+.blank-menu-header {
+    text-align: right;
+    margin-top: 5px;
+}
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-header li {
+    display: inline;
+    color:#31dfac;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+    font-size: 2rem;
+    color:#31dfac;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-shadow: 2px 2px #3c3a3a;
+}
+.blank-menu-header ul li a:hover {
+    color: #ffbfd3;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-shadow: 2px 2px #3c3a3a;
+}
