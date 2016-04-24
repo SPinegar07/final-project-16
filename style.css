@@ -33,18 +33,45 @@ body  {
   background-repeat: no-repeat;
   background-color: #ffffff;
 }
+
+h1  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 2rem;
+
+}
+h2  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.85rem;
+
+}
+h3  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.75rem;
+
+}
+h4  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.5rem;
+
+}
+p  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #000000;
+  padding-bottom: 5px;
+}
+a  {
+  color: #60c2b9;
+}
+a:hover  {
+  color: #ffbfd3;;
+}
 /* Container */
 .container{
 padding: 15px 15px 15px 15px;
 }
 
 .index-main {
-  height: 600px;
-}
-
-.index-main table  {
-  width: 400px;
-
+  height: 400px;
 }
 
 table {
@@ -99,13 +126,19 @@ table {
   }
 .table1 {
   background-color: #60c2b9;
-  width: 33%;
-  height: 200px;
+  height: 250px;
+  padding: 35px 15px 15px 15px;
+  text-align:center;
+  color: #fff;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 .table2 {
   background-color: #97e5d4;  
-  width: 33%;
-  height: 200px;
+  height: 250px;
+  padding: 35px 15px 15px 15px;
+  text-align:center;
+  color: #fff;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 footer  {
@@ -192,4 +225,32 @@ width: 100%;
   padding-left: 15px;
   padding-bottom: 150px;
   clear: both;
+}
+/*----------------Posts on homepage------------------*/
+
+.post-home  {
+  padding: 25px 15px 25px 15px;
+}
+.post-home h1  {
+  color: #60c2b9;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 2rem;
+  padding-top: 10px;
+
+}
+.post-home h4  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.5rem;
+
+}
+.post-home p  {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: #000000;
+  padding-bottom: 5px;
+}
+.post-home a  {
+  color: #60c2b9;
+}
+.post-home a:hover  {
+  color: #ffbfd3;;
 }
