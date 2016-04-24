@@ -33,16 +33,34 @@ function blank_widgets_init() {
         'name' => ('Main-Page-Center-Widget'),
         'id' => 'main-page-center-widget',
         'description' => 'center widget on the homepage', 
-        'before_widget' => '<div class="table1">', 
+        'before_widget' => '<div class="table2">', 
         'after_widget' => '</div>',
         'before_title' => '<h2>',
         'after_title' => '</h2>'                        
         ));
         register_sidebar( array(
         'name' => ('Main-Page-Right-Widget'),
-        'id' => 'main-page-renter-widget',
+        'id' => 'main-page-right-widget',
         'description' => 'right widget on the homepage', 
         'before_widget' => '<div class="table1">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'                        
+        ));
+        register_sidebar( array(
+        'name' => ('Main Button Left'),
+        'id' => 'main-button-left',
+        'description' => 'left button on the homepage', 
+        'before_widget' => '<div class="button">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'                        
+        ));
+        register_sidebar( array(
+        'name' => ('Main Button Right'),
+        'id' => 'main-button-right',
+        'description' => 'right button on the homepage', 
+        'before_widget' => '<div class="button">', 
         'after_widget' => '</div>',
         'before_title' => '<h2>',
         'after_title' => '</h2>'                        

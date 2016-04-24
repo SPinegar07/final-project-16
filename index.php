@@ -11,12 +11,15 @@
          <div class="twelve columns">
 <!-- BEGIN MAIN IMAGE SECTION -->
             <div class="index-main">
+                <div class="twelve columns">
+                <div class="four columns">
+                
                 <table>
                     <tr>
-                        <td class="button1">Menu</td>
-                        <td class="button2">Locations</td>
+                        <td><?php dynamic_sidebar('main-button-left'); ?></td>
+                        <td><?php dynamic_sidebar('main-button-right'); ?></td>
                     </tr>
-                </table>
+                </table> 
             </div>
 <!-- END MAIN IMAGE SECTION -->
             <div class="twelve columns">
@@ -37,7 +40,7 @@
 <h4>Posted on <?php the_time('F jS, Y') ?></h4>
 <p><?php the_content(__('(more...)')); ?></p>
 <hr> <?php endwhile; else: ?>
-<p><?php _e('Sorry, We could not find what you were looking for.'); ?></p><?php endif; ?>
+<p><?php _e('ERROR! Could not compute! Our 1s and 0s are broken, search for something else!'); ?></p><?php endif; ?>
 <!-- END LOOP -->
         </div>
     </section>
