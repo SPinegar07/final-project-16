@@ -2,7 +2,7 @@
 /* 
 Template name: Full Width 
 */ 
-
+<?php get_header(); ?>
 <section class="row full-width-class">
     <div class="twelve columns">
     <!-- BEGIN PAGE PHP -->
