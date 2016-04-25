@@ -66,6 +66,16 @@ function blank_widgets_init() {
         'after_title' => '</h2>'                        
         ));
     }
+    function register_my_menus() {
+  register_nav_menus(
+    array(
+      'footer-menu' => __( 'Footer Menu' ),
+      'header-menu' => __( 'Header Menu' ),
+      'an-extra-menu' => __( 'An Extra Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 
 /*-------------- Enable Menu --------------- */
 

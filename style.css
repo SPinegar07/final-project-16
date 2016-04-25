@@ -141,11 +141,6 @@ table {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
-footer  {
-  background-color: #f235b5;
-  color: f9e4f1;
-  font-size: 12px;
-}
 .display-posts-listing li {
 list-style-type: none;
 min-height: 175px;
@@ -253,4 +248,46 @@ width: 100%;
 }
 .post-home a:hover  {
   color: #ffbfd3;;
+}
+/*-----------------FOOTER!-------------------------*/
+footer  {
+  background-color: #ff0065;
+  color: f9e4f1;
+  font-size: 12px;
+  padding: 25px 10px 25px 10px;
+}
+.footer_menu_class  {
+  text-align: right;
+    margin-top: 5px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.footer_menu_class ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.footer_menu_class li {
+    display: inline;
+}
+.footer_menu_class ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-shadow: 2px 2px #3c3a3a;
+    color:#ffffff;
+    vertical-align: top;
+}
+.footer_menu_class ul li a:hover {
+    color: #fff;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-shadow: 2px 2px #3c3a3a;
+}
+/*----------Testimonials-----------*/
+.testimonials-widget-testimonials2 h2 {
+  color: #fff;
 }

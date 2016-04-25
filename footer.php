@@ -17,7 +17,8 @@
                     <?php dynamic_sidebar('footer-widget-one'); ?>
                 </div>
                 <div class="eight columns">
-                    <?php dynamic_sidebar('menu-footer'); ?>
+                    <?wp_nav_menu( array( 'theme_location' => 'footer-menu', 'container_class' => 'footer_menu_class' ) ); ?>
+
                 </div>
             </div>
 </footer>
