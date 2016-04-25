@@ -42,7 +42,7 @@
                 <div class="twelve columns">
                 <div class="six columns">
                     <!-- ADD LINK TO HOME_URL -->
-                    <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/chip-logo.png" alt="logo" width="300px"></a>
+                    <a href="http://www.kittensunicornsandtacos.com/chips"><img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/chip-logo.png" alt="logo" width="300px"></a>
                 </div>
             </div>
                 <div class="six columns">

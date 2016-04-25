@@ -5,6 +5,7 @@ get_header(); ?>
 
 <div class="row">
     <div class="twelve columns">
+        <div class="white">
         <?php if ( have_posts() ) : ?>
             <h2>Archives</h2>
             <?php
@@ -19,7 +20,9 @@ get_header(); ?>
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
         <?php else: ?>
-            <p>Sorry, we couldn't find what you were looking for. Try again!</p>
+            <p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
     </div>
 </div>
+</div>
+<?php get_footer(); ?>
