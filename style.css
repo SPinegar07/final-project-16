@@ -212,6 +212,12 @@ width: 100%;
 .left  {
   float:left;
 }
+.header-container {
+   width:100%;
+   position:fixed;
+   top:0px;
+   z-index:2;
+}
 /* -----------------Menu Styling------------------- */
 .blank-menu-header {
     text-align: right;
@@ -255,6 +261,8 @@ width: 100%;
 
 .post-home  {
   padding: 25px 15px 25px 15px;
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.75);
 }
 .post-home h1  {
   color: #60c2b9;
