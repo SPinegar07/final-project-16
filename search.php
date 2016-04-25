@@ -1,12 +1,6 @@
 <?php 
 /* Template Name: Search Page */
 get_header(); ?>
-<!-- Sylesheet -->
-        <style type="text/css">
-  <?php
-    include("style.css");
-  ?>
-</style>
 
 <div class="row">
     <div class="eight columns">
@@ -19,8 +13,7 @@ get_header(); ?>
             </h1>
 
             <?php if (have_posts()) :
-                while (have_posts()) : the_post(); ?>                       
-                <h2><?php the_title(); ?></h2>
+                while (have_posts()) : the_post(); ?>                       <h2><?php the_title(); ?></h2>
                     <?php the_content();
                 endwhile;
          else : ?>
