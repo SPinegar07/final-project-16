@@ -1,29 +1,31 @@
+<?php 
 /* Template: 404 page (Not Found) */
 
-<!-- Sylesheet -->
-        <style type="text/css">
-  <?php
-    include("style.css");
-  ?>
-</style>
-<style type="text/css">
-  <?php
-    include("css/skeleton.css");
-  ?>
-</style>
-<?php get_header(); ?>
+get_header(); ?>
+
     <div class="row">
-        <div class="eight columns">
-            <h1>Oh no! Where'd it go?</h1>
+        <div class="twelve columns">
+          <table class="white" width="100%">
+            <tr>
+              <td width="235px">
+              </td>
+                <td>
+           <h1>Are you lost?</h1>
             <h2>This is somewhat embarrassing, isn't it?</h2>
-            <p>It looks like nothing was found at this location. Maybe try a search?</p>
+            <p>It looks like nothing was found at this location. Try another way!</p>
 
             <h2>Try searching for what you need:</h2>
             <?php get_search_form(); ?>
         </div>
-        <div class="four columns">
-            <?php get_sidebar(); ?>
-        </div>
+      </td>
+      <td>
+        <img src="http://www.kittensunicornsandtacos.com/chips/wp-content/uploads/2016/04/clipbellephillippe.gif" alt="lost" width="400" class="right" />
+           </td>
+           <td width="235px">
+              </td>
+         </tr>
+       </table>
     </div>
+  </div>
 
 <?php get_footer(); ?>
