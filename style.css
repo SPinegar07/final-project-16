@@ -37,17 +37,17 @@ body  {
 h1  {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 2rem;
-
+  color: #60c2b9;
 }
 h2  {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 1.85rem;
-
+  color: #60c2b9;
 }
 h3  {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-size: 1.75rem;
-
+  color: #60c2b9;
 }
 h4  {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -64,6 +64,10 @@ a  {
 }
 a:hover  {
   color: #ffbfd3;;
+}
+.white  {
+  background-color: #fff;
+  padding: 25px 15px 25px 15px;
 }
 /* Container */
 .container{

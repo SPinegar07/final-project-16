@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>MCJ6213 Template</title>
-		<!-- Links to our Style.css file -->
-    <!-- Sylesheet -->
-        <style type="text/css">
-  <?php
-    include("style.css");
-  ?>
-</style>
-<style type="text/css">
-  <?php
-    include("css/skeleton.css");
-  ?>
-</style>
+<title>Chip's Chiptastic Cupcakery</title>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('style.css'); ?>" />
 </head>
 <body>
-	<div class="container">
-		<?php get_header(); ?>
+
+    <div class="container">
+        <?php get_header(); ?>
             <section class="row">
                 <div class="twelve columns">
+                    <div class="white">
+                    <table>
+                        <tr>
+                            <td width="75%">
+                <div class="nine columns">
                     <?php if (have_posts()) :               
                         while (have_posts()) : the_post(); 
                         if ( has_post_thumbnail() ) { ?>
@@ -31,7 +25,16 @@
                         endwhile;
                     endif; ?>
                 </div>
+            </td><td width="25%">
+                <div class="three columns">
+                        <?php get_sidebar(); ?>
+                    </div>
+                </td>
+            </tr>
+        </table>
+                </div>
             </section>
+        </div>
         <?php get_footer(); ?>
 </div>
 </body>
